@@ -15,6 +15,9 @@ $(function() {
 
   var $loginPage = $('.login.page'); // The login page
   var $chatPage = $('.chat.page'); // The chatroom page
+  
+  var roomName = location.hash;
+  log('room name is ' + roomName);
 
   // Prompt for setting a username
   var username;
